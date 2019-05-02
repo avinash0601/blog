@@ -18,3 +18,8 @@ artifacts:
     files:        
         - '**/*'    
 discard-paths: yes
+cache:
+    paths:
+        - '.cache/*'
+        - 'node_modules/*'
+        - 'public/*'
